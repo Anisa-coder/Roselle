@@ -26,7 +26,7 @@ export function HeroSection() {
           <a className="inline-flex min-h-[46px] items-center justify-center gap-[9px] rounded-[13px] bg-[#b94051] px-[23px] text-sm font-semibold whitespace-nowrap text-white shadow-[0_10px_22px_rgba(185,64,81,.18)] transition hover:-translate-y-0.5 hover:bg-[#a93647] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[#df65714d] max-[640px]:w-full" href="#trending">
             Explore Recommendations <ArrowRightIcon size={17} weight="bold" />
           </a>
-          <a className="inline-flex min-h-[46px] items-center justify-center gap-[9px] rounded-[13px] border border-[#eadfd8] bg-white/90 px-[23px] text-sm font-semibold whitespace-nowrap text-[#2d2d2c] shadow-[0_7px_18px_rgba(80,55,43,.07)] transition hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[#df65714d] max-[640px]:w-full" href="#quiz">
+          <a className="inline-flex min-h-[46px] items-center justify-center gap-[9px] rounded-[13px] border border-[#eadfd8] bg-white/90 px-[23px] text-sm font-semibold whitespace-nowrap text-[#2d2d2c] shadow-[0_7px_18px_rgba(80,55,43,.07)] transition hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[#df65714d] max-[640px]:w-full" href="/quiz">
             Start Skin Analysis <SparkleIcon size={17} weight="bold" />
           </a>
         </div>

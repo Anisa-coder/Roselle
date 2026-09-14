@@ -26,7 +26,7 @@ export function SiteHeader() {
             </a>
           ))}
         </nav>
-        <a className="inline-flex min-h-[42px] items-center justify-center gap-2 rounded-[9px] bg-[#b94051] px-5 text-[13px] font-semibold whitespace-nowrap text-white shadow-[0_10px_22px_rgba(185,64,81,.18)] transition hover:-translate-y-0.5 hover:bg-[#a93647] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[#df65714d] max-[900px]:hidden" href="#quiz">
+        <a className="inline-flex min-h-[42px] items-center justify-center gap-2 rounded-[9px] bg-[#b94051] px-5 text-[13px] font-semibold whitespace-nowrap text-white shadow-[0_10px_22px_rgba(185,64,81,.18)] transition hover:-translate-y-0.5 hover:bg-[#a93647] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[#df65714d] max-[900px]:hidden" href="/quiz">
           Take Skin Quiz <SparkleIcon size={16} weight="bold" aria-hidden="true" />
         </a>
         <details className="relative hidden justify-self-end max-[900px]:block [&>summary::-webkit-details-marker]:hidden">
@@ -35,7 +35,7 @@ export function SiteHeader() {
           </summary>
           <nav className="absolute top-[54px] right-0 grid w-[260px] rounded-[14px] border border-[#eadfd8] bg-white p-3 shadow-[0_14px_40px_rgba(115,74,54,.11)]" aria-label="Mobile navigation">
             {navLinks.slice(1).map(([label, href]) => <a className="rounded-lg p-3 text-sm hover:bg-[#fff7f3] hover:text-[#b94051]" href={href} key={`${label}-${href}`}>{label}</a>)}
-            <a className="rounded-lg p-3 text-sm hover:bg-[#fff7f3] hover:text-[#b94051]" href="#quiz">Take Skin Quiz</a>
+            <a className="rounded-lg p-3 text-sm hover:bg-[#fff7f3] hover:text-[#b94051]" href="/quiz">Take Skin Quiz</a>
           </nav>
         </details>
       </div>

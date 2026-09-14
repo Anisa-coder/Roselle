@@ -23,10 +23,10 @@ const footerLinks = [
   {
     title: "Helpful Links",
     links: [
-      { label: "Skin Quiz", href: "#quiz" },
+      { label: "Skin Quiz", href: "/quiz" },
       { label: "Routine Builder", href: "#about" },
       { label: "Ingredient Guide", href: "#about" },
-      { label: "Live Guidance", href: "#quiz", pulse: true },
+      { label: "Live Guidance", href: "/quiz", pulse: true },
     ],
   },
 ];
@@ -56,7 +56,7 @@ export function SiteFooter() {
             <p className="max-w-xs text-sm leading-relaxed text-[#625c58]">
               Thoughtful skincare guidance and personalized routines for healthier, more confident skin.
             </p>
-            <a className="inline-flex min-h-11 items-center rounded-full border border-[#df6571]/45 bg-white/70 px-5 text-sm font-semibold text-[#b94051] shadow-sm transition-colors hover:bg-[#df6571] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#df6571]" href="#quiz">
+            <a className="inline-flex min-h-11 items-center rounded-full border border-[#df6571]/45 bg-white/70 px-5 text-sm font-semibold text-[#b94051] shadow-sm transition-colors hover:bg-[#df6571] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#df6571]" href="/quiz">
               Take the skin quiz
             </a>
           </div>
