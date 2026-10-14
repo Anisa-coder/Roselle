@@ -4,7 +4,7 @@ import { SkinQuiz } from "@/components/sections/skin-quiz";
 
 export const metadata: Metadata = {
   title: "Skin Quiz | Roselle",
-  description: "Answer five questions about your skin and habits to explore a simple skincare routine.",
+  description: "Answer twelve questions about your skin, concerns, environment, and habits to explore a simple skincare routine.",
 };
 
 export default function QuizPage() {
@@ -19,7 +19,7 @@ export default function QuizPage() {
       <main className="py-8 sm:py-12">
         <div className="mx-auto w-[min(1140px,calc(100%-32px))]">
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Your skincare quiz</h1>
-          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-[#64645f]">Answer based on your usual skin and current habits. Choose one answer per question, and select all relevant concerns. If you are unsure, choose “I&apos;m not sure” where available. Use Back to review your answers before viewing your routine.</p>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-[#64645f]">Answer based on your usual skin and current habits. Most questions use one answer; concerns, affected areas, and triggers allow several. If you are unsure, choose “I&apos;m not sure” where available. Use Back at any time to review an answer.</p>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-[#64645f]">This self-report quiz offers general skincare education. It cannot diagnose a skin condition, confirm your skin type, or guarantee a product will suit you. Continue any prescribed care as directed by your clinician.</p>
         </div>
         <SkinQuiz />
