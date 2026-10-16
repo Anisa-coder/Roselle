@@ -1,0 +1,20 @@
+{
+  "_name_or_path": "skin-type",
+  "architectures": ["ViTForImageClassification"],
+  "id2label": {
+    "0": "Dry",
+    "1": "Normal",
+    "2": "Oily"
+  },
+  "label2id": {
+    "Dry": 0,
+    "Normal": 1,
+    "Oily": 2
+  },
+  "model_type": "vit",
+  "num_channels": 3,
+  "num_labels": 3,
+  "image_size": 224,
+  "patch_size": 16,
+  "problem_type": "single_label_classification"
+}

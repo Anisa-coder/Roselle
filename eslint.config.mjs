@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Prebuilt third-party ONNX runtime, copied without source changes.
+    "public/wasm/**",
   ]),
 ]);
 

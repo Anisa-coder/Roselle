@@ -24,11 +24,11 @@ function RoseMark() {
   );
 }
 
-export function Brand({ compact = false, inverse = false }: { compact?: boolean; inverse?: boolean }) {
+export function Brand({ compact = false, inverse = false, href = "#home" }: { compact?: boolean; inverse?: boolean; href?: string }) {
   return (
     <a
       className={`inline-flex w-fit items-center font-semibold leading-none tracking-[-0.045em] ${inverse ? "text-white" : "text-[#252625]"} ${compact ? "text-[25px]" : "text-[29px] max-[640px]:text-[25px]"}`}
-      href="#home"
+      href={href}
       aria-label="Roselle home"
     >
       <span aria-hidden="true" className="inline-flex items-center">

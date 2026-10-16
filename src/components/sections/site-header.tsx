@@ -6,7 +6,6 @@ const navLinks = [
   ["Home", "#home"],
   ["Skin Types", "#skin-types"],
   ["Recommendations", "#trending"],
-  ["Trending Products", "#trending"],
   ["About", "#about"],
 ];
 
